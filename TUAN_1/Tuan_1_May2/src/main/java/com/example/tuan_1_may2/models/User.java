@@ -1,11 +1,10 @@
 package com.example.tuan_1_may2.models;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
+import jakarta.persistence.*;
+import lombok.*;
 
 @Entity
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class User {
