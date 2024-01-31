@@ -21,6 +21,8 @@ public class ProductController {
         return productRepository.findAll();
     }
     @GetMapping("/products/{id}")
+
+
     Product getUserById(@PathVariable long id){
         User user = restTemplate.getForObject("http://localhost:8080/user/"+id, User.class);
         Product product = productRepository.findById(id).get();
