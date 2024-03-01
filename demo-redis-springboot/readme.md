@@ -5,10 +5,10 @@
 ### add
 ![](screenshot/add.png)
 ### delete
-![](screenshot/delete customer.png)
+![](screenshot/delete_customer.png)
 ### get list
-![](screenshot/get list.png)
+![](screenshot/get_list.png)
 ### show added redis
-![](screenshot/show added redis.png)
+![](screenshot/show_added_redis.png)
 ### update customer
-![](screenshot/update customer.png)
+![](screenshot/update_customer.png)
